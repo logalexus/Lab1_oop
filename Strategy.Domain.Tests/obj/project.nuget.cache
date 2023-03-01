@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TaofrDAuy93YCR1HAjyxJgrQZVbyxW3VRz6lrECGh0D4Ra9dzv8DmtDZMkUe6Om6w+u6Z+9gk+I6I6zMOefZSQ==",
+  "success": true,
+  "projectFilePath": "D:\\YandexDisk\\Учеба\\ООЯ\\lab1\\Strategy\\Strategy.Domain.Tests\\Strategy.Domain.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\logal\\.nuget\\packages\\nunit\\3.11.0\\nunit.3.11.0.nupkg.sha512",
+    "C:\\Users\\logal\\.nuget\\packages\\nunit3testadapter\\3.12.0\\nunit3testadapter.3.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
