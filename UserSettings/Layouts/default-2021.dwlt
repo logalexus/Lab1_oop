@@ -15,16 +15,42 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 2560
-    height: 1349
+    y: 43.2
+    width: 1536
+    height: 772.8
   m_ShowMode: 4
   m_Title: Project
-  m_RootView: {fileID: 6}
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 290.4
+    y: 0
+    width: 181.6
+    height: 428
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,44 +63,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 10}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2560
-    height: 1299
-  m_MinSize: {x: 300, y: 200}
-  m_MaxSize: {x: 24288, y: 16192}
+    width: 1536
+    height: 722.8
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 22
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1955
-    y: 0
-    width: 605
-    height: 1299
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
+  controlID: 25
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,11 +90,11 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 1172.8
     y: 0
-    width: 484
-    height: 769
-  m_MinSize: {x: 201, y: 221}
+    width: 363.19995
+    height: 722.8
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
@@ -111,24 +111,50 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 290.4
+    height: 428
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 769
-    width: 1955
-    height: 530
+    y: 428
+    width: 1172.8
+    height: 294.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &6
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,22 +167,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
   - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
-    height: 1349
+    width: 1536
+    height: 772.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,12 +199,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2560
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -194,36 +220,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1329
-    width: 2560
+    y: 752.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1955
-    height: 1299
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 27
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -237,19 +238,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1955
-    height: 769
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 8096}
-  vertical: 0
-  controlID: 28
+    width: 1172.8
+    height: 722.8
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 1
+  controlID: 102
 --- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 2}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1172.8
+    height: 428
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 8096}
+  vertical: 0
+  controlID: 103
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,20 +291,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 484
+    x: 472
     y: 0
-    width: 1471
-    height: 769
+    width: 700.80005
+    height: 428
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
-  - {fileID: 12}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,31 +323,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 484
-    y: 73
-    width: 1469
-    height: 748
+    x: 584
+    y: 73.6
+    width: 586.80005
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 752
-    splitterInitialOffset: 0
+    ID: 231
+    splitterInitialOffset: 327.8
     currentActiveSplitter: -1
     realSizes:
-    - 508
-    - 170
+    - 258.99997
+    - 77.80002
     relativeSizes:
-    - 0.75
-    - 0.25
+    - 0.7690023
+    - 0.23099768
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 678
+    lastTotalSize: 336.8
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -331,15 +357,15 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 12}
+    m_Window: {fileID: 13}
     m_NewResultList:
     - id: 1004
       uniqueId: '[OOP][suite]'
       name: OOP
       fullName: OOP
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.2240354
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -349,13 +375,1574 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: 
-    m_ResultStacktrace: 
+    - id: 1091
+      uniqueId: '[Tests.dll][suite]'
+      name: Tests.dll
+      fullName: D:/Projects/Lab1_OPP/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 2
+      duration: 0.2000495
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[OOP][suite]'
+    - id: 1092
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 2
+      duration: 0.1915897
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1091
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+      name: GameControllerTests
+      fullName: Tests.GameControllerTests
+      resultStatus: 2
+      duration: 0.1885317
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1092
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1084
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_ArcherAttackAllTypes]
+      name: AttackUnit_ArcherAttackAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_ArcherAttackAllTypes
+      resultStatus: 1
+      duration: 0.0791959
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1088
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_ArcherAttackCloseCombatAllTypes]
+      name: AttackUnit_ArcherAttackCloseCombatAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_ArcherAttackCloseCombatAllTypes
+      resultStatus: 1
+      duration: 0.0005427
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1085
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_CatapultAttackAllTypes]
+      name: AttackUnit_CatapultAttackAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_CatapultAttackAllTypes
+      resultStatus: 1
+      duration: 0.0004056
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1089
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_CatapultAttackCloseCombatAllTypes]
+      name: AttackUnit_CatapultAttackCloseCombatAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_CatapultAttackCloseCombatAllTypes
+      resultStatus: 1
+      duration: 0.0004271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1086
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_HorsemanAttackAllTypes]
+      name: AttackUnit_HorsemanAttackAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_HorsemanAttackAllTypes
+      resultStatus: 1
+      duration: 0.0003579
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1087
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.AttackUnit_SwordsmanAttackAllTypes]
+      name: AttackUnit_SwordsmanAttackAllTypes
+      fullName: Tests.GameControllerTests.AttackUnit_SwordsmanAttackAllTypes
+      resultStatus: 1
+      duration: 0.0003709
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1055
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+      name: CanAttackUnit_Archer
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer
+      resultStatus: 1
+      duration: 0.0086016
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1047
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(4,5,False)]
+      name: CanAttackUnit_Archer(4,5,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(4,5,False)
+      resultStatus: 1
+      duration: 0.0028916
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1048
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(5,4,False)]
+      name: CanAttackUnit_Archer(5,4,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(5,4,False)
+      resultStatus: 1
+      duration: 0.0003135
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1049
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(15,16,False)]
+      name: CanAttackUnit_Archer(15,16,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(15,16,False)
+      resultStatus: 1
+      duration: 0.0003424
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1050
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(16,15,False)]
+      name: CanAttackUnit_Archer(16,15,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(16,15,False)
+      resultStatus: 1
+      duration: 0.0002059
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1051
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(5,5,True)]
+      name: CanAttackUnit_Archer(5,5,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(5,5,True)
+      resultStatus: 1
+      duration: 0.0001623
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1052
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(15,15,True)]
+      name: CanAttackUnit_Archer(15,15,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(15,15,True)
+      resultStatus: 1
+      duration: 0.0001655
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1053
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(9,10,True)]
+      name: CanAttackUnit_Archer(9,10,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(9,10,True)
+      resultStatus: 1
+      duration: 0.0001278
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1054
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Archer/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer(12,7,True)]
+      name: CanAttackUnit_Archer(12,7,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Archer(12,7,True)
+      resultStatus: 1
+      duration: 0.0001442
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1055
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Archer][suite]
+    - id: 1083
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_ArcherAttackFriend_False]
+      name: CanAttackUnit_ArcherAttackFriend_False
+      fullName: Tests.GameControllerTests.CanAttackUnit_ArcherAttackFriend_False
+      resultStatus: 1
+      duration: 0.0007436
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1064
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+      name: CanAttackUnit_Catapult
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult
+      resultStatus: 1
+      duration: 0.0047166
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1056
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(10,9,False)]
+      name: CanAttackUnit_Catapult(10,9,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(10,9,False)
+      resultStatus: 1
+      duration: 0.00081
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1057
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(9,10,False)]
+      name: CanAttackUnit_Catapult(9,10,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(9,10,False)
+      resultStatus: 1
+      duration: 0.000305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1058
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(30,31,False)]
+      name: CanAttackUnit_Catapult(30,31,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(30,31,False)
+      resultStatus: 1
+      duration: 0.000169
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1059
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(31,30,False)]
+      name: CanAttackUnit_Catapult(31,30,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(31,30,False)
+      resultStatus: 1
+      duration: 0.0002006
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1060
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(10,10,True)]
+      name: CanAttackUnit_Catapult(10,10,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(10,10,True)
+      resultStatus: 1
+      duration: 0.0001286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1061
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(30,30,True)]
+      name: CanAttackUnit_Catapult(30,30,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(30,30,True)
+      resultStatus: 1
+      duration: 0.000139
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1062
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(11,15,True)]
+      name: CanAttackUnit_Catapult(11,15,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(11,15,True)
+      resultStatus: 1
+      duration: 0.0001299
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1063
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Catapult/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult(25,12,True)]
+      name: CanAttackUnit_Catapult(25,12,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(25,12,True)
+      resultStatus: 1
+      duration: 0.0002216
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1064
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Catapult][suite]
+    - id: 1073
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+      name: CanAttackUnit_Horseman
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman
+      resultStatus: 1
+      duration: 0.0045487
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1065
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(8,9,False)]
+      name: CanAttackUnit_Horseman(8,9,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(8,9,False)
+      resultStatus: 1
+      duration: 0.0006217
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1066
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(9,8,False)]
+      name: CanAttackUnit_Horseman(9,8,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,8,False)
+      resultStatus: 1
+      duration: 0.0001806
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1067
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(11,12,False)]
+      name: CanAttackUnit_Horseman(11,12,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(11,12,False)
+      resultStatus: 1
+      duration: 0.0001329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1068
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(12,11,False)]
+      name: CanAttackUnit_Horseman(12,11,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(12,11,False)
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1069
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(11,11,True)]
+      name: CanAttackUnit_Horseman(11,11,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(11,11,True)
+      resultStatus: 1
+      duration: 0.0002262
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1070
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(10,11,True)]
+      name: CanAttackUnit_Horseman(10,11,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(10,11,True)
+      resultStatus: 1
+      duration: 0.0001369
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1071
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(9,9,True)]
+      name: CanAttackUnit_Horseman(9,9,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,9,True)
+      resultStatus: 1
+      duration: 0.0001367
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1072
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Horseman/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman(9,10,True)]
+      name: CanAttackUnit_Horseman(9,10,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,10,True)
+      resultStatus: 1
+      duration: 0.0001392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1073
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Horseman][suite]
+    - id: 1082
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+      name: CanAttackUnit_Swordsman
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman
+      resultStatus: 1
+      duration: 0.0039084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1074
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(8,9,False)]
+      name: CanAttackUnit_Swordsman(8,9,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(8,9,False)
+      resultStatus: 1
+      duration: 0.0005824
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1075
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(9,8,False)]
+      name: CanAttackUnit_Swordsman(9,8,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,8,False)
+      resultStatus: 1
+      duration: 0.0002423
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1076
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(11,12,False)]
+      name: CanAttackUnit_Swordsman(11,12,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(11,12,False)
+      resultStatus: 1
+      duration: 0.0001413
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1077
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(12,11,False)]
+      name: CanAttackUnit_Swordsman(12,11,False)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(12,11,False)
+      resultStatus: 1
+      duration: 0.0001273
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1078
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(11,11,True)]
+      name: CanAttackUnit_Swordsman(11,11,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(11,11,True)
+      resultStatus: 1
+      duration: 0.0001235
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1079
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(10,11,True)]
+      name: CanAttackUnit_Swordsman(10,11,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(10,11,True)
+      resultStatus: 1
+      duration: 0.0001827
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1080
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(9,9,True)]
+      name: CanAttackUnit_Swordsman(9,9,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,9,True)
+      resultStatus: 1
+      duration: 0.0001313
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1081
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanAttackUnit_Swordsman/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman(9,10,True)]
+      name: CanAttackUnit_Swordsman(9,10,True)
+      fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,10,True)
+      resultStatus: 1
+      duration: 0.0001432
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1082
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanAttackUnit_Swordsman][suite]
+    - id: 1012
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+      name: CanMoveUnit_ArcherOnEmptyMap
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap
+      resultStatus: 1
+      duration: 0.0063823
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1003
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(6,7,False)]
+      name: CanMoveUnit_ArcherOnEmptyMap(6,7,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(6,7,False)
+      resultStatus: 1
+      duration: 0.0012992
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1004
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,6,False)]
+      name: CanMoveUnit_ArcherOnEmptyMap(7,6,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,6,False)
+      resultStatus: 1
+      duration: 0.0004472
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1005
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(14,13,False)]
+      name: CanMoveUnit_ArcherOnEmptyMap(14,13,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(14,13,False)
+      resultStatus: 1
+      duration: 0.0002745
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1006
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,14,False)]
+      name: CanMoveUnit_ArcherOnEmptyMap(13,14,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,14,False)
+      resultStatus: 1
+      duration: 0.000186
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1007
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(10,10,False)]
+      name: CanMoveUnit_ArcherOnEmptyMap(10,10,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(10,10,False)
+      resultStatus: 1
+      duration: 0.0006865
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1008
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(9,10,True)]
+      name: CanMoveUnit_ArcherOnEmptyMap(9,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(9,10,True)
+      resultStatus: 1
+      duration: 0.0001734
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1009
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(11,10,True)]
+      name: CanMoveUnit_ArcherOnEmptyMap(11,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(11,10,True)
+      resultStatus: 1
+      duration: 0.0001457
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1010
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,7,True)]
+      name: CanMoveUnit_ArcherOnEmptyMap(7,7,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,7,True)
+      resultStatus: 1
+      duration: 0.0001416
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1011
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_ArcherOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,13,True)]
+      name: CanMoveUnit_ArcherOnEmptyMap(13,13,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,13,True)
+      resultStatus: 1
+      duration: 0.0001389
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap][suite]
+    - id: 1022
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+      name: CanMoveUnit_CatapultOnEmptyMap
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap
+      resultStatus: 1
+      duration: 0.0072629
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1013
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(8,9,False)]
+      name: CanMoveUnit_CatapultOnEmptyMap(8,9,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(8,9,False)
+      resultStatus: 1
+      duration: 0.0005985
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1014
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,8,False)]
+      name: CanMoveUnit_CatapultOnEmptyMap(9,8,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,8,False)
+      resultStatus: 1
+      duration: 0.0001688
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1015
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(10,10,False)]
+      name: CanMoveUnit_CatapultOnEmptyMap(10,10,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(10,10,False)
+      resultStatus: 1
+      duration: 0.0003472
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1016
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,12,False)]
+      name: CanMoveUnit_CatapultOnEmptyMap(11,12,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,12,False)
+      resultStatus: 1
+      duration: 0.0001646
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1017
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(12,11,False)]
+      name: CanMoveUnit_CatapultOnEmptyMap(12,11,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(12,11,False)
+      resultStatus: 1
+      duration: 0.0001408
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1018
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,10,True)]
+      name: CanMoveUnit_CatapultOnEmptyMap(9,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,10,True)
+      resultStatus: 1
+      duration: 0.0001872
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1019
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,10,True)]
+      name: CanMoveUnit_CatapultOnEmptyMap(11,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,10,True)
+      resultStatus: 1
+      duration: 0.0001589
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1020
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,9,True)]
+      name: CanMoveUnit_CatapultOnEmptyMap(9,9,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,9,True)
+      resultStatus: 1
+      duration: 0.0001857
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1021
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_CatapultOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,11,True)]
+      name: CanMoveUnit_CatapultOnEmptyMap(11,11,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,11,True)
+      resultStatus: 1
+      duration: 0.0001391
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap][suite]
+    - id: 1045
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_CatapultOnHorseman_False]
+      name: CanMoveUnit_CatapultOnHorseman_False
+      fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnHorseman_False
+      resultStatus: 1
+      duration: 0.0004194
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1032
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+      name: CanMoveUnit_HorsemanOnEmptyMap
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap
+      resultStatus: 1
+      duration: 0.007827
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1023
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,9,False)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(10,9,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,9,False)
+      resultStatus: 1
+      duration: 0.00053
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1024
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(9,10,False)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(9,10,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(9,10,False)
+      resultStatus: 1
+      duration: 0.0002049
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1025
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,31,False)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(30,31,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,31,False)
+      resultStatus: 1
+      duration: 0.0001701
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1026
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(31,30,False)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(31,30,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(31,30,False)
+      resultStatus: 1
+      duration: 0.000164
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1027
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(20,20,False)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(20,20,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(20,20,False)
+      resultStatus: 1
+      duration: 0.0005034
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1028
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,10,True)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(10,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,10,True)
+      resultStatus: 1
+      duration: 0.0002531
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1029
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,30,True)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(30,30,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,30,True)
+      resultStatus: 1
+      duration: 0.0001689
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1030
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(11,15,True)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(11,15,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(11,15,True)
+      resultStatus: 1
+      duration: 0.0001587
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1031
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_HorsemanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(25,12,True)]
+      name: CanMoveUnit_HorsemanOnEmptyMap(25,12,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(25,12,True)
+      resultStatus: 1
+      duration: 0.0003488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap][suite]
+    - id: 1042
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+      name: CanMoveUnit_SwordsmanOnEmptyMap
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap
+      resultStatus: 1
+      duration: 0.0044131
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1033
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(4,5,False)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(4,5,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(4,5,False)
+      resultStatus: 1
+      duration: 0.0005667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1034
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,4,False)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(5,4,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,4,False)
+      resultStatus: 1
+      duration: 0.0001727
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1035
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,16,False)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(15,16,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,16,False)
+      resultStatus: 1
+      duration: 0.000141
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1036
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(16,15,False)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(16,15,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(16,15,False)
+      resultStatus: 1
+      duration: 0.0001352
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1037
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(10,10,False)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(10,10,False)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(10,10,False)
+      resultStatus: 1
+      duration: 0.0003608
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1038
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,5,True)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(5,5,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,5,True)
+      resultStatus: 1
+      duration: 0.0001645
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1039
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,15,True)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(15,15,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,15,True)
+      resultStatus: 1
+      duration: 0.0001724
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1040
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(9,10,True)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(9,10,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(9,10,True)
+      resultStatus: 1
+      duration: 0.0001544
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1041
+      uniqueId: Tests.dll/Tests/GameControllerTests/CanMoveUnit_SwordsmanOnEmptyMap/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(12,7,True)]
+      name: CanMoveUnit_SwordsmanOnEmptyMap(12,7,True)
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(12,7,True)
+      resultStatus: 1
+      duration: 0.000199
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap][suite]
+    - id: 1043
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnGrass_True]
+      name: CanMoveUnit_SwordsmanOnGrass_True
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnGrass_True
+      resultStatus: 1
+      duration: 0.0009419
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1044
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.CanMoveUnit_SwordsmanOnWater_False]
+      name: CanMoveUnit_SwordsmanOnWater_False
+      fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnWater_False
+      resultStatus: 1
+      duration: 0.0005143
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.GetObjectCoordinates_AllTypes]
+      name: GetObjectCoordinates_AllTypes
+      fullName: Tests.GameControllerTests.GetObjectCoordinates_AllTypes
+      resultStatus: 1
+      duration: 0.0007633
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1090
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.GetObjectSource_AllTypes]
+      name: GetObjectSource_AllTypes
+      fullName: Tests.GameControllerTests.GetObjectSource_AllTypes
+      resultStatus: 2
+      duration: 0.0226517
+      messages: "  Expected: not null\r\n  But was:  null\r\n"
+      output: 
+      stacktrace: 'at Tests.GameControllerTests.GetObjectSource_AllTypes () [0x00019]
+        in D:\Projects\Lab1_OPP\Assets\Scripts\Tests\GameControllerTests.cs:607
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    - id: 1046
+      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.MoveUnit_AllTypes]
+      name: MoveUnit_AllTypes
+      fullName: Tests.GameControllerTests.MoveUnit_AllTypes
+      resultStatus: 1
+      duration: 0.0008179
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
+    m_ResultText: "GetObjectSource_AllTypes (0,023s)\n---\nExpected: not null\r\n 
+      But was:  null\n---\nat Tests.GameControllerTests.GetObjectSource_AllTypes
+      () [0x00019] in D:\\Projects\\Lab1_OPP\\Assets\\Scripts\\Tests\\GameControllerTests.cs:607"
+    m_ResultStacktrace: 'at Tests.GameControllerTests.GetObjectSource_AllTypes ()
+      [0x00019] in D:\Projects\Lab1_OPP\Assets\Scripts\Tests\GameControllerTests.cs:607
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 04bc307bffffff7f
+      m_SelectedIDs: 5e29fdfc
+      m_LastClickedID: -50517666
+      m_ExpandedIDs: e557abf78359db41d3a8e45704bc307bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -383,7 +1970,7 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 12}
+    m_Window: {fileID: 13}
     m_NewResultList:
     - id: 1000
       uniqueId: '[OOP][suite]'
@@ -433,7 +2020,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -449,14 +2036,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 842
-    width: 1954
-    height: 509
+    y: 501.6
+    width: 1171.8
+    height: 273.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -474,22 +2061,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Project\Lab1_OOP
+  m_LastProjectPath: D:\Projects\Lab1_OPP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea5e0000
-    m_LastClickedID: 24298
-    m_ExpandedIDs: 00000000105d0000305e00003e5e000000ca9a3b
+    m_SelectedIDs: 325d0000
+    m_LastClickedID: 23858
+    m_ExpandedIDs: 00000000325d0000485d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,7 +2104,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000105d0000
+    m_ExpandedIDs: 00000000325d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,7 +2148,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 6}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -573,7 +2160,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -589,14 +2176,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1955
-    y: 73
-    width: 604
-    height: 1278
+    x: 1172.8
+    y: 73.6
+    width: 362.19995
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -614,7 +2201,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -630,14 +2217,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
-    width: 483
-    height: 748
+    y: 73.6
+    width: 289.4
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -645,9 +2232,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e25e0000
+      m_SelectedIDs: 765d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 68dfffffc0f0ffffc6f0ffff12f6ffff48f6ffffa6f6ffff2cfbffff
+      m_ExpandedIDs: 10f2ffff88f3ffffbef9ffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -663,7 +2250,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -671,7 +2258,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -687,14 +2274,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 484
-    y: 73
-    width: 1469
-    height: 748
+    x: 472
+    y: 73.6
+    width: 698.80005
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -704,8 +2291,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -101, y: -26}
+      snapOffset: {x: -101, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -951,9 +2538,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.78810114, y: -0.87193304, z: 0.06378262}
+    m_Target: {x: -0.3063985, y: -0.24610052, z: 0.06304184}
     speed: 2
-    m_Value: {x: 0.7645172, y: -0.8714902, z: 0.0629832}
+    m_Value: {x: -0.3063985, y: -0.24610052, z: 0.06304184}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1004,9 +2591,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.6965405
+    m_Target: 2.64465
     speed: 2
-    m_Value: 1.7764822
+    m_Value: 2.64465
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1031,7 +2618,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1047,14 +2634,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 484
-    y: 73
-    width: 1469
-    height: 748
+    x: 290.4
+    y: 73.6
+    width: 179.6
+    height: 407
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1065,7 +2652,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1469, y: 727}
+  m_TargetSize: {x: 179.6, y: 101}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1074,16 +2661,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -734.5
-    m_HBaseRangeMax: 734.5
-    m_VBaseRangeMin: -363.5
-    m_VBaseRangeMax: 363.5
+    m_HBaseRangeMin: -71.840004
+    m_HBaseRangeMax: 71.840004
+    m_VBaseRangeMin: -40.4
+    m_VBaseRangeMax: 40.4
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1092,7 +2679,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1101,29 +2688,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1469
-      height: 727
+      width: 179.6
+      height: 386
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 734.5, y: 363.5}
+    m_Translation: {x: 89.8, y: 193}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -734.5
-      y: -363.5
-      width: 1469
-      height: 727
+      x: -89.8
+      y: -193
+      width: 179.6
+      height: 386
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1469, y: 748}
+  m_LastWindowPixelSize: {x: 224.5, y: 508.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1139,14 +2726,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 842
-    width: 1954
-    height: 509
+    y: 501.6
+    width: 1171.8
+    height: 273.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
