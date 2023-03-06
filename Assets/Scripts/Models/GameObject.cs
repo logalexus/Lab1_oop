@@ -2,14 +2,11 @@
 {
     public class GameObject
     {
-        /// <summary>
-        /// Координата x на карте.
-        /// </summary>
-        public virtual int X { get; set; }
+        public Coordinates Position;
 
-        /// <summary>
-        /// Координата y на карте.
-        /// </summary>
-        public virtual int Y { get; set; }
+        public GameObject()
+        {
+            Position = new Coordinates(0, 0);
+        }
     }
 }

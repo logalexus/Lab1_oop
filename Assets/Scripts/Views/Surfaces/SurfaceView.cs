@@ -1,6 +1,6 @@
 ﻿namespace Views.Surfaces
 {
-    public class SurfaceView : GameView, ISurface
+    public class SurfaceView : GameObjectView, ISurface
     {
         
     }

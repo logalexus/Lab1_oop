@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43.2
-    width: 1536
-    height: 772.8
+    y: 39
+    width: 1920
+    height: 1011
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 7}
@@ -39,10 +39,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 290.4
+    x: 362
     y: 0
-    width: 181.6
-    height: 428
+    width: 227
+    height: 569
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
@@ -69,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1536
-    height: 722.8
+    width: 1920
+    height: 961
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 25
+  controlID: 21
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -90,12 +90,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1172.8
+    x: 1466
     y: 0
-    width: 363.19995
-    height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 454
+    height: 961
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -118,8 +118,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 290.4
-    height: 428
+    width: 362
+    height: 569
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -143,9 +143,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 428
-    width: 1172.8
-    height: 294.8
+    y: 569
+    width: 1466
+    height: 392
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -174,8 +174,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
-    height: 772.8
+    width: 1920
+    height: 1011
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -199,7 +199,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -220,8 +220,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 752.8
-    width: 1536
+    y: 991
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1172.8
-    height: 722.8
+    width: 1466
+    height: 961
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 102
+  controlID: 105
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,12 +270,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1172.8
-    height: 428
+    width: 1466
+    height: 569
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 103
+  controlID: 106
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -286,23 +286,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 472
+    x: 589
     y: 0
-    width: 700.80005
-    height: 428
-  m_MinSize: {x: 202, y: 221}
+    width: 877
+    height: 569
+  m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 17}
   - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,21 +323,21 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 584
-    y: 73.6
-    width: 586.80005
-    height: 407
+    x: 589
+    y: 69
+    width: 875
+    height: 548
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 231
+    ID: 173
     splitterInitialOffset: 327.8
     currentActiveSplitter: -1
     realSizes:
-    - 258.99997
-    - 77.80002
+    - 368
+    - 110
     relativeSizes:
     - 0.7690023
     - 0.23099768
@@ -347,7 +347,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 336.8
+    lastTotalSize: 478
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -363,9 +363,9 @@ MonoBehaviour:
       uniqueId: '[OOP][suite]'
       name: OOP
       fullName: OOP
-      resultStatus: 2
-      duration: 0.2240354
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.5498195
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -379,9 +379,9 @@ MonoBehaviour:
       uniqueId: '[Tests.dll][suite]'
       name: Tests.dll
       fullName: D:/Projects/Lab1_OPP/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 2
-      duration: 0.2000495
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1994937
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -395,9 +395,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 2
-      duration: 0.1915897
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.1869893
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -411,9 +411,9 @@ MonoBehaviour:
       uniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
       name: GameControllerTests
       fullName: Tests.GameControllerTests
-      resultStatus: 2
-      duration: 0.1885317
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 0.177835
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
       name: AttackUnit_ArcherAttackAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_ArcherAttackAllTypes
       resultStatus: 1
-      duration: 0.0791959
+      duration: 0.0284365
       messages: 
       output: 
       stacktrace: 
@@ -445,7 +445,7 @@ MonoBehaviour:
       name: AttackUnit_ArcherAttackCloseCombatAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_ArcherAttackCloseCombatAllTypes
       resultStatus: 1
-      duration: 0.0005427
+      duration: 0.0004111
       messages: 
       output: 
       stacktrace: 
@@ -462,7 +462,7 @@ MonoBehaviour:
       name: AttackUnit_CatapultAttackAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_CatapultAttackAllTypes
       resultStatus: 1
-      duration: 0.0004056
+      duration: 0.0005269
       messages: 
       output: 
       stacktrace: 
@@ -479,7 +479,7 @@ MonoBehaviour:
       name: AttackUnit_CatapultAttackCloseCombatAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_CatapultAttackCloseCombatAllTypes
       resultStatus: 1
-      duration: 0.0004271
+      duration: 0.0003125
       messages: 
       output: 
       stacktrace: 
@@ -496,7 +496,7 @@ MonoBehaviour:
       name: AttackUnit_HorsemanAttackAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_HorsemanAttackAllTypes
       resultStatus: 1
-      duration: 0.0003579
+      duration: 0.0004601
       messages: 
       output: 
       stacktrace: 
@@ -513,7 +513,7 @@ MonoBehaviour:
       name: AttackUnit_SwordsmanAttackAllTypes
       fullName: Tests.GameControllerTests.AttackUnit_SwordsmanAttackAllTypes
       resultStatus: 1
-      duration: 0.0003709
+      duration: 0.000408
       messages: 
       output: 
       stacktrace: 
@@ -530,7 +530,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer
       resultStatus: 1
-      duration: 0.0086016
+      duration: 0.0164558
       messages: 
       output: 
       stacktrace: 
@@ -546,7 +546,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(4,5,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(4,5,False)
       resultStatus: 1
-      duration: 0.0028916
+      duration: 0.0049617
       messages: 
       output: 
       stacktrace: 
@@ -563,7 +563,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(5,4,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(5,4,False)
       resultStatus: 1
-      duration: 0.0003135
+      duration: 0.0003689
       messages: 
       output: 
       stacktrace: 
@@ -580,7 +580,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(15,16,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(15,16,False)
       resultStatus: 1
-      duration: 0.0003424
+      duration: 0.000291
       messages: 
       output: 
       stacktrace: 
@@ -597,7 +597,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(16,15,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(16,15,False)
       resultStatus: 1
-      duration: 0.0002059
+      duration: 0.0002935
       messages: 
       output: 
       stacktrace: 
@@ -614,7 +614,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(5,5,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(5,5,True)
       resultStatus: 1
-      duration: 0.0001623
+      duration: 0.0003195
       messages: 
       output: 
       stacktrace: 
@@ -631,7 +631,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(15,15,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(15,15,True)
       resultStatus: 1
-      duration: 0.0001655
+      duration: 0.0002841
       messages: 
       output: 
       stacktrace: 
@@ -648,7 +648,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(9,10,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(9,10,True)
       resultStatus: 1
-      duration: 0.0001278
+      duration: 0.0003165
       messages: 
       output: 
       stacktrace: 
@@ -665,7 +665,7 @@ MonoBehaviour:
       name: CanAttackUnit_Archer(12,7,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Archer(12,7,True)
       resultStatus: 1
-      duration: 0.0001442
+      duration: 0.0002874
       messages: 
       output: 
       stacktrace: 
@@ -682,7 +682,7 @@ MonoBehaviour:
       name: CanAttackUnit_ArcherAttackFriend_False
       fullName: Tests.GameControllerTests.CanAttackUnit_ArcherAttackFriend_False
       resultStatus: 1
-      duration: 0.0007436
+      duration: 0.001518
       messages: 
       output: 
       stacktrace: 
@@ -699,7 +699,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult
       resultStatus: 1
-      duration: 0.0047166
+      duration: 0.0088695
       messages: 
       output: 
       stacktrace: 
@@ -715,7 +715,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(10,9,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(10,9,False)
       resultStatus: 1
-      duration: 0.00081
+      duration: 0.0005049
       messages: 
       output: 
       stacktrace: 
@@ -732,7 +732,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(9,10,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(9,10,False)
       resultStatus: 1
-      duration: 0.000305
+      duration: 0.0001419
       messages: 
       output: 
       stacktrace: 
@@ -749,7 +749,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(30,31,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(30,31,False)
       resultStatus: 1
-      duration: 0.000169
+      duration: 0.0001188
       messages: 
       output: 
       stacktrace: 
@@ -766,7 +766,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(31,30,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(31,30,False)
       resultStatus: 1
-      duration: 0.0002006
+      duration: 0.000118
       messages: 
       output: 
       stacktrace: 
@@ -783,7 +783,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(10,10,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(10,10,True)
       resultStatus: 1
-      duration: 0.0001286
+      duration: 0.0001193
       messages: 
       output: 
       stacktrace: 
@@ -800,7 +800,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(30,30,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(30,30,True)
       resultStatus: 1
-      duration: 0.000139
+      duration: 0.0001324
       messages: 
       output: 
       stacktrace: 
@@ -817,7 +817,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(11,15,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(11,15,True)
       resultStatus: 1
-      duration: 0.0001299
+      duration: 0.0001158
       messages: 
       output: 
       stacktrace: 
@@ -834,7 +834,7 @@ MonoBehaviour:
       name: CanAttackUnit_Catapult(25,12,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Catapult(25,12,True)
       resultStatus: 1
-      duration: 0.0002216
+      duration: 0.0001143
       messages: 
       output: 
       stacktrace: 
@@ -851,7 +851,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman
       resultStatus: 1
-      duration: 0.0045487
+      duration: 0.0138695
       messages: 
       output: 
       stacktrace: 
@@ -867,7 +867,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(8,9,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(8,9,False)
       resultStatus: 1
-      duration: 0.0006217
+      duration: 0.0003735
       messages: 
       output: 
       stacktrace: 
@@ -884,7 +884,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(9,8,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,8,False)
       resultStatus: 1
-      duration: 0.0001806
+      duration: 0.0001252
       messages: 
       output: 
       stacktrace: 
@@ -901,7 +901,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(11,12,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(11,12,False)
       resultStatus: 1
-      duration: 0.0001329
+      duration: 0.0001189
       messages: 
       output: 
       stacktrace: 
@@ -918,7 +918,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(12,11,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(12,11,False)
       resultStatus: 1
-      duration: 0.0001361
+      duration: 0.0001157
       messages: 
       output: 
       stacktrace: 
@@ -935,7 +935,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(11,11,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(11,11,True)
       resultStatus: 1
-      duration: 0.0002262
+      duration: 0.0001168
       messages: 
       output: 
       stacktrace: 
@@ -952,7 +952,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(10,11,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(10,11,True)
       resultStatus: 1
-      duration: 0.0001369
+      duration: 0.0001189
       messages: 
       output: 
       stacktrace: 
@@ -969,7 +969,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(9,9,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,9,True)
       resultStatus: 1
-      duration: 0.0001367
+      duration: 0.0001168
       messages: 
       output: 
       stacktrace: 
@@ -986,7 +986,7 @@ MonoBehaviour:
       name: CanAttackUnit_Horseman(9,10,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Horseman(9,10,True)
       resultStatus: 1
-      duration: 0.0001392
+      duration: 0.0001157
       messages: 
       output: 
       stacktrace: 
@@ -1003,7 +1003,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman
       resultStatus: 1
-      duration: 0.0039084
+      duration: 0.0143678
       messages: 
       output: 
       stacktrace: 
@@ -1019,7 +1019,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(8,9,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(8,9,False)
       resultStatus: 1
-      duration: 0.0005824
+      duration: 0.000501
       messages: 
       output: 
       stacktrace: 
@@ -1036,7 +1036,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(9,8,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,8,False)
       resultStatus: 1
-      duration: 0.0002423
+      duration: 0.0001336
       messages: 
       output: 
       stacktrace: 
@@ -1053,7 +1053,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(11,12,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(11,12,False)
       resultStatus: 1
-      duration: 0.0001413
+      duration: 0.000125
       messages: 
       output: 
       stacktrace: 
@@ -1070,7 +1070,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(12,11,False)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(12,11,False)
       resultStatus: 1
-      duration: 0.0001273
+      duration: 0.0001258
       messages: 
       output: 
       stacktrace: 
@@ -1087,7 +1087,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(11,11,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(11,11,True)
       resultStatus: 1
-      duration: 0.0001235
+      duration: 0.0001319
       messages: 
       output: 
       stacktrace: 
@@ -1104,7 +1104,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(10,11,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(10,11,True)
       resultStatus: 1
-      duration: 0.0001827
+      duration: 0.0003309
       messages: 
       output: 
       stacktrace: 
@@ -1121,7 +1121,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(9,9,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,9,True)
       resultStatus: 1
-      duration: 0.0001313
+      duration: 0.0005065
       messages: 
       output: 
       stacktrace: 
@@ -1138,7 +1138,7 @@ MonoBehaviour:
       name: CanAttackUnit_Swordsman(9,10,True)
       fullName: Tests.GameControllerTests.CanAttackUnit_Swordsman(9,10,True)
       resultStatus: 1
-      duration: 0.0001432
+      duration: 0.0003355
       messages: 
       output: 
       stacktrace: 
@@ -1155,7 +1155,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap
       resultStatus: 1
-      duration: 0.0063823
+      duration: 0.0189152
       messages: 
       output: 
       stacktrace: 
@@ -1171,7 +1171,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(6,7,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(6,7,False)
       resultStatus: 1
-      duration: 0.0012992
+      duration: 0.0019355
       messages: 
       output: 
       stacktrace: 
@@ -1188,7 +1188,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(7,6,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,6,False)
       resultStatus: 1
-      duration: 0.0004472
+      duration: 0.0003641
       messages: 
       output: 
       stacktrace: 
@@ -1205,7 +1205,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(14,13,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(14,13,False)
       resultStatus: 1
-      duration: 0.0002745
+      duration: 0.0003431
       messages: 
       output: 
       stacktrace: 
@@ -1222,7 +1222,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(13,14,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,14,False)
       resultStatus: 1
-      duration: 0.000186
+      duration: 0.0003396
       messages: 
       output: 
       stacktrace: 
@@ -1239,7 +1239,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(10,10,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(10,10,False)
       resultStatus: 1
-      duration: 0.0006865
+      duration: 0.0023644
       messages: 
       output: 
       stacktrace: 
@@ -1256,7 +1256,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(9,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(9,10,True)
       resultStatus: 1
-      duration: 0.0001734
+      duration: 0.0004242
       messages: 
       output: 
       stacktrace: 
@@ -1273,7 +1273,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(11,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(11,10,True)
       resultStatus: 1
-      duration: 0.0001457
+      duration: 0.0003866
       messages: 
       output: 
       stacktrace: 
@@ -1290,7 +1290,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(7,7,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(7,7,True)
       resultStatus: 1
-      duration: 0.0001416
+      duration: 0.0003852
       messages: 
       output: 
       stacktrace: 
@@ -1307,7 +1307,7 @@ MonoBehaviour:
       name: CanMoveUnit_ArcherOnEmptyMap(13,13,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_ArcherOnEmptyMap(13,13,True)
       resultStatus: 1
-      duration: 0.0001389
+      duration: 0.0003726
       messages: 
       output: 
       stacktrace: 
@@ -1324,7 +1324,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap
       resultStatus: 1
-      duration: 0.0072629
+      duration: 0.0119281
       messages: 
       output: 
       stacktrace: 
@@ -1340,7 +1340,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(8,9,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(8,9,False)
       resultStatus: 1
-      duration: 0.0005985
+      duration: 0.0007983
       messages: 
       output: 
       stacktrace: 
@@ -1357,7 +1357,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(9,8,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,8,False)
       resultStatus: 1
-      duration: 0.0001688
+      duration: 0.0002216
       messages: 
       output: 
       stacktrace: 
@@ -1374,7 +1374,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(10,10,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(10,10,False)
       resultStatus: 1
-      duration: 0.0003472
+      duration: 0.0004862
       messages: 
       output: 
       stacktrace: 
@@ -1391,7 +1391,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(11,12,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,12,False)
       resultStatus: 1
-      duration: 0.0001646
+      duration: 0.0001644
       messages: 
       output: 
       stacktrace: 
@@ -1408,7 +1408,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(12,11,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(12,11,False)
       resultStatus: 1
-      duration: 0.0001408
+      duration: 0.0001895
       messages: 
       output: 
       stacktrace: 
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(9,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,10,True)
       resultStatus: 1
-      duration: 0.0001872
+      duration: 0.0001763
       messages: 
       output: 
       stacktrace: 
@@ -1442,7 +1442,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(11,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,10,True)
       resultStatus: 1
-      duration: 0.0001589
+      duration: 0.0001757
       messages: 
       output: 
       stacktrace: 
@@ -1459,7 +1459,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(9,9,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(9,9,True)
       resultStatus: 1
-      duration: 0.0001857
+      duration: 0.0001794
       messages: 
       output: 
       stacktrace: 
@@ -1476,7 +1476,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnEmptyMap(11,11,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnEmptyMap(11,11,True)
       resultStatus: 1
-      duration: 0.0001391
+      duration: 0.0002015
       messages: 
       output: 
       stacktrace: 
@@ -1493,7 +1493,7 @@ MonoBehaviour:
       name: CanMoveUnit_CatapultOnHorseman_False
       fullName: Tests.GameControllerTests.CanMoveUnit_CatapultOnHorseman_False
       resultStatus: 1
-      duration: 0.0004194
+      duration: 0.0005271
       messages: 
       output: 
       stacktrace: 
@@ -1510,7 +1510,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap
       resultStatus: 1
-      duration: 0.007827
+      duration: 0.0174264
       messages: 
       output: 
       stacktrace: 
@@ -1526,7 +1526,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(10,9,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,9,False)
       resultStatus: 1
-      duration: 0.00053
+      duration: 0.000476
       messages: 
       output: 
       stacktrace: 
@@ -1543,7 +1543,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(9,10,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(9,10,False)
       resultStatus: 1
-      duration: 0.0002049
+      duration: 0.0001268
       messages: 
       output: 
       stacktrace: 
@@ -1560,7 +1560,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(30,31,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,31,False)
       resultStatus: 1
-      duration: 0.0001701
+      duration: 0.0001185
       messages: 
       output: 
       stacktrace: 
@@ -1577,7 +1577,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(31,30,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(31,30,False)
       resultStatus: 1
-      duration: 0.000164
+      duration: 0.0001173
       messages: 
       output: 
       stacktrace: 
@@ -1594,7 +1594,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(20,20,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(20,20,False)
       resultStatus: 1
-      duration: 0.0005034
+      duration: 0.0003655
       messages: 
       output: 
       stacktrace: 
@@ -1611,7 +1611,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(10,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(10,10,True)
       resultStatus: 1
-      duration: 0.0002531
+      duration: 0.0001425
       messages: 
       output: 
       stacktrace: 
@@ -1628,7 +1628,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(30,30,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(30,30,True)
       resultStatus: 1
-      duration: 0.0001689
+      duration: 0.0001324
       messages: 
       output: 
       stacktrace: 
@@ -1645,7 +1645,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(11,15,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(11,15,True)
       resultStatus: 1
-      duration: 0.0001587
+      duration: 0.0001333
       messages: 
       output: 
       stacktrace: 
@@ -1662,7 +1662,7 @@ MonoBehaviour:
       name: CanMoveUnit_HorsemanOnEmptyMap(25,12,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_HorsemanOnEmptyMap(25,12,True)
       resultStatus: 1
-      duration: 0.0003488
+      duration: 0.0001357
       messages: 
       output: 
       stacktrace: 
@@ -1679,7 +1679,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap
       resultStatus: 1
-      duration: 0.0044131
+      duration: 0.0149472
       messages: 
       output: 
       stacktrace: 
@@ -1695,7 +1695,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(4,5,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(4,5,False)
       resultStatus: 1
-      duration: 0.0005667
+      duration: 0.0005501
       messages: 
       output: 
       stacktrace: 
@@ -1712,7 +1712,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(5,4,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,4,False)
       resultStatus: 1
-      duration: 0.0001727
+      duration: 0.0001531
       messages: 
       output: 
       stacktrace: 
@@ -1729,7 +1729,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(15,16,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,16,False)
       resultStatus: 1
-      duration: 0.000141
+      duration: 0.000122
       messages: 
       output: 
       stacktrace: 
@@ -1746,7 +1746,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(16,15,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(16,15,False)
       resultStatus: 1
-      duration: 0.0001352
+      duration: 0.0001228
       messages: 
       output: 
       stacktrace: 
@@ -1763,7 +1763,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(10,10,False)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(10,10,False)
       resultStatus: 1
-      duration: 0.0003608
+      duration: 0.0004151
       messages: 
       output: 
       stacktrace: 
@@ -1780,7 +1780,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(5,5,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(5,5,True)
       resultStatus: 1
-      duration: 0.0001645
+      duration: 0.0001756
       messages: 
       output: 
       stacktrace: 
@@ -1797,7 +1797,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(15,15,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(15,15,True)
       resultStatus: 1
-      duration: 0.0001724
+      duration: 0.0001451
       messages: 
       output: 
       stacktrace: 
@@ -1814,7 +1814,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(9,10,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(9,10,True)
       resultStatus: 1
-      duration: 0.0001544
+      duration: 0.0001405
       messages: 
       output: 
       stacktrace: 
@@ -1831,7 +1831,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnEmptyMap(12,7,True)
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnEmptyMap(12,7,True)
       resultStatus: 1
-      duration: 0.000199
+      duration: 0.0001382
       messages: 
       output: 
       stacktrace: 
@@ -1848,7 +1848,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnGrass_True
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnGrass_True
       resultStatus: 1
-      duration: 0.0009419
+      duration: 0.0010467
       messages: 
       output: 
       stacktrace: 
@@ -1865,7 +1865,7 @@ MonoBehaviour:
       name: CanMoveUnit_SwordsmanOnWater_False
       fullName: Tests.GameControllerTests.CanMoveUnit_SwordsmanOnWater_False
       resultStatus: 1
-      duration: 0.0005143
+      duration: 0.0005627
       messages: 
       output: 
       stacktrace: 
@@ -1882,30 +1882,10 @@ MonoBehaviour:
       name: GetObjectCoordinates_AllTypes
       fullName: Tests.GameControllerTests.GetObjectCoordinates_AllTypes
       resultStatus: 1
-      duration: 0.0007633
+      duration: 0.0006022
       messages: 
       output: 
       stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.GameControllerTests][suite]
-    - id: 1090
-      uniqueId: Tests.dll/Tests/GameControllerTests/[Tests][Tests.GameControllerTests.GetObjectSource_AllTypes]
-      name: GetObjectSource_AllTypes
-      fullName: Tests.GameControllerTests.GetObjectSource_AllTypes
-      resultStatus: 2
-      duration: 0.0226517
-      messages: "  Expected: not null\r\n  But was:  null\r\n"
-      output: 
-      stacktrace: 'at Tests.GameControllerTests.GetObjectSource_AllTypes () [0x00019]
-        in D:\Projects\Lab1_OPP\Assets\Scripts\Tests\GameControllerTests.cs:607
-
-'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1919,7 +1899,7 @@ MonoBehaviour:
       name: MoveUnit_AllTypes
       fullName: Tests.GameControllerTests.MoveUnit_AllTypes
       resultStatus: 1
-      duration: 0.0008179
+      duration: 0.0005728
       messages: 
       output: 
       stacktrace: 
@@ -2036,14 +2016,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 501.6
-    width: 1171.8
-    height: 273.8
+    y: 638
+    width: 1465
+    height: 371
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2069,14 +2049,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Projects\Lab1_OPP
+  m_LastProjectPath: E:\Project\Lab1_OOP
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 325d0000
-    m_LastClickedID: 23858
-    m_ExpandedIDs: 00000000325d0000485d000000ca9a3b
+    m_SelectedIDs: 7a5d0000
+    m_LastClickedID: 23930
+    m_ExpandedIDs: 000000007a5d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2104,7 +2084,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000325d0000
+    m_ExpandedIDs: 000000007a5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2176,14 +2156,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1172.8
-    y: 73.6
-    width: 362.19995
-    height: 701.8
+    x: 1466
+    y: 69
+    width: 453
+    height: 940
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2217,14 +2197,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73.6
-    width: 289.4
-    height: 407
+    y: 69
+    width: 361
+    height: 548
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2232,9 +2212,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 765d0000
+      m_SelectedIDs: ec6f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 10f2ffff88f3ffffbef9ffff2cfbffff
+      m_ExpandedIDs: eaf0ffff42f1ffff7af1ffff22f5ffff5cf5ffffaaf5ffffa8f9ffff1cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2274,14 +2254,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 472
-    y: 73.6
-    width: 698.80005
-    height: 407
+    x: 589
+    y: 69
+    width: 875
+    height: 548
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2634,14 +2614,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.4
-    y: 73.6
-    width: 179.6
-    height: 407
+    x: 362
+    y: 69
+    width: 225
+    height: 548
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2652,7 +2632,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 179.6, y: 101}
+  m_TargetSize: {x: 225, y: 127}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2667,10 +2647,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -71.840004
-    m_HBaseRangeMax: 71.840004
-    m_VBaseRangeMin: -40.4
-    m_VBaseRangeMax: 40.4
+    m_HBaseRangeMin: -112.5
+    m_HBaseRangeMax: 112.5
+    m_VBaseRangeMin: -63.5
+    m_VBaseRangeMax: 63.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2688,23 +2668,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 179.6
-      height: 386
+      width: 225
+      height: 527
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 89.8, y: 193}
+    m_Translation: {x: 112.5, y: 263.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -89.8
-      y: -193
-      width: 179.6
-      height: 386
+      x: -112.5
+      y: -263.5
+      width: 225
+      height: 527
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 224.5, y: 508.75}
+  m_LastWindowPixelSize: {x: 225, y: 548}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2726,14 +2706,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 501.6
-    width: 1171.8
-    height: 273.8
+    y: 638
+    width: 1465
+    height: 371
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

@@ -2,6 +2,5 @@
 {
     public interface IUnit
     {
-        public void SetHealth(int value);
     }
 }

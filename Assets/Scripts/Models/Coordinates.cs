@@ -16,13 +16,18 @@
         /// <summary>
         /// Координата X.
         /// </summary>
-        public int X { get; }
+        public int X { get; private set; } 
 
         /// <summary>
         /// Координата Y.
         /// </summary>
-        public int Y { get; }
+        public int Y { get; private set; }
 
+        public void Set(int x, int y)
+        {
+            X = x;
+            Y = y;
+        }
 
         /// <inheritdoc />
         public override bool Equals(object obj)

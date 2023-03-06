@@ -2,11 +2,13 @@
 
 namespace Views.Units
 {
-    public class UnitView : GameView, IUnit
+    public class UnitView : GameObjectView, IUnit
     {
-        public UnitView(Unit unit)
+        private Unit _unit;
+        
+        public void Init(Unit unit)
         {
-            
+            _unit = unit;
         }
     }
 }

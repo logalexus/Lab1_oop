@@ -14,9 +14,6 @@ namespace Models
         {
             Ground = ground;
             Units = units;
-
-            MapView mapView = Resources.Load<MapView>("MapView");
-            UnityEngine.GameObject.Instantiate(mapView);
         }
 
 

@@ -2,11 +2,12 @@
 
 namespace Views
 {
-    public class GameView : MonoBehaviour
+    public class GameObjectView : MonoBehaviour
     {
         public void SetPosition(int x, int y) =>
             transform.position = new Vector3(x, y, 0);
-        
-        
+
+        public virtual Models.GameObject CreateModel() =>
+            new Models.GameObject();
     }
 }
