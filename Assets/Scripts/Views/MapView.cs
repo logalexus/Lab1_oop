@@ -20,6 +20,6 @@ namespace Views
         
         public Vector3Int WorldToCell(Vector3 position) =>
             _grid.WorldToCell(position);
-        
+
     }
 }
