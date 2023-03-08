@@ -1,35 +1,29 @@
-﻿namespace Models
+﻿using System;
+
+namespace Models
 {
-    /// <summary>
-    /// Координаты на карте.
-    /// </summary>
     public sealed class Coordinates
     {
-        /// <inheritdoc />
+        public event Action<Coordinates> OnValueChanged;
+        
         public Coordinates(int x, int y)
         {
             X = x;
             Y = y;
         }
 
-
-        /// <summary>
-        /// Координата X.
-        /// </summary>
         public int X { get; private set; } 
 
-        /// <summary>
-        /// Координата Y.
-        /// </summary>
         public int Y { get; private set; }
 
         public void Set(int x, int y)
         {
             X = x;
             Y = y;
+            
+            OnValueChanged?.Invoke(this);
         }
 
-        /// <inheritdoc />
         public override bool Equals(object obj)
         {
             if (ReferenceEquals(null, obj)) return false;
@@ -37,7 +31,6 @@
             return obj is Coordinates other && Equals(other);
         }
 
-        /// <inheritdoc />
         public override int GetHashCode()
         {
             unchecked
@@ -46,9 +39,6 @@
             }
         }
 
-        /// <summary>
-        /// Проверить на равенство с другим объектом.
-        /// </summary>
         private bool Equals(Coordinates other)
         {
             return X == other.X && Y == other.Y;

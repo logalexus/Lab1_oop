@@ -2,14 +2,12 @@
 
 namespace Models
 {
-    /// <summary>
-    /// Катапульта.
-    /// </summary>
     public sealed class Catapult : Unit
     {
         public Catapult(Player player) : base(player)
         {
-            Health = 75;
+            MaxHealth = 75;
+            Health = MaxHealth;
             Damage = 100;
         }
 

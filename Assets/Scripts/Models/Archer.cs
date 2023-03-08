@@ -2,15 +2,12 @@
 
 namespace Models
 {
-    /// <summary>
-    /// Лучник.
-    /// </summary>
     public sealed class Archer : Unit
     {
-        /// <inheritdoc />
         public Archer(Player player) : base(player)
         {
-            Health = 50;
+            MaxHealth = 50;
+            Health = MaxHealth;
             Damage = 50;
         }
 

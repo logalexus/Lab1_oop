@@ -7,7 +7,9 @@ namespace Models
     public abstract class Unit : GameObject
     {
         private int _health;
-        
+
+        public event Action<int> OnHealthChanged; 
+
         public Player Player { get; }
 
         public int Health
@@ -17,10 +19,13 @@ namespace Models
             {
                 _health = value;
                 _health = _health >= 0 ? _health : 0;
+                OnHealthChanged?.Invoke(_health);
             }
         }
         
         public int Damage { get; protected set; }
+        
+        public int MaxHealth { get; protected set; }
 
         public bool IsDead => Health <= 0;
 

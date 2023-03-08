@@ -2,14 +2,12 @@
 
 namespace Models
 {
-    /// <summary>
-    /// Класс всадника.
-    /// </summary>
     public sealed class Horseman : Unit
     {
         public Horseman(Player player) : base(player)
         {
-            Health = 200;
+            MaxHealth = 200;
+            Health = MaxHealth;
             Damage = 75;
         }
 

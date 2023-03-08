@@ -18,7 +18,7 @@ namespace Tests
         [Test]
         public void GetObjectCoordinates_AllTypes()
         {
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var map = new Map(null, null);
             var gameController = new GameController(map);
 
@@ -83,7 +83,7 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var archer = new Archer(player);
             archer.Position.Set(startPositionX, startPositionY);
             var map = CreateMap(units: new[] { archer });
@@ -110,7 +110,7 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var catapult = new Catapult(player);
             catapult.Position.Set(startPositionX, startPositionY);
             var map = CreateMap(units: new[] { catapult });
@@ -137,7 +137,7 @@ namespace Tests
             const int startPositionX = 20;
             const int startPositionY = 20;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var horseman = new Horseman(player);
             horseman.Position.Set(startPositionX, startPositionY);
             var map = CreateMap(units: new[] { horseman });
@@ -164,7 +164,7 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var swordsman = new Swordsman(player);
             swordsman.Position.Set(startPositionX, startPositionY);
             var map = CreateMap(units: new[] { swordsman });
@@ -182,7 +182,7 @@ namespace Tests
             const int grassPositionX = 15;
             const int grassPositionY = 15;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var swordsman = new Swordsman(player);
             swordsman.Position.Set(10, 10);
             var grass = new Grass();
@@ -202,7 +202,7 @@ namespace Tests
             const int waterPositionX = 15;
             const int waterPositionY = 15;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var swordsman = new Swordsman(player);
             swordsman.Position.Set(10, 10);
             var water = new Water();
@@ -222,7 +222,7 @@ namespace Tests
             const int horsemanPositionX = 15;
             const int horsemanPositionY = 15;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var catapult = new Catapult(player);
             catapult.Position.Set(10, 10);
             var horseman = new Horseman(player);
@@ -246,7 +246,7 @@ namespace Tests
             const int movePositionX = 15;
             const int movePositionY = 15;
 
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var map = CreateMap();
             var gameController = new GameController(map);
 
@@ -297,8 +297,8 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var archer = new Archer(player1);
             archer.Position.Set(startPositionX, startPositionY);
             var target = new Archer(player2);
@@ -326,8 +326,8 @@ namespace Tests
             const int startPositionX = 20;
             const int startPositionY = 20;
 
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var catapult = new Catapult(player1);
             catapult.Position.Set(startPositionX, startPositionY);
             var target = new Archer(player2);
@@ -355,8 +355,8 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var horseman = new Horseman(player1);
             horseman.Position.Set(startPositionX, startPositionY);
             var target = new Archer(player2);
@@ -384,8 +384,8 @@ namespace Tests
             const int startPositionX = 10;
             const int startPositionY = 10;
 
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var swordsman = new Swordsman(player1);
             swordsman.Position.Set(startPositionX, startPositionY);
             var target = new Archer(player2);
@@ -402,7 +402,7 @@ namespace Tests
         [Test]
         public void CanAttackUnit_ArcherAttackFriend_False()
         {
-            var player = new Player(1, "Игрок №1", null);
+            var player = new Player();
             var archer = new Archer(player);
             archer.Position.Set(10, 10);
             var target = new Archer(player);
@@ -423,8 +423,8 @@ namespace Tests
         [Test]
         public void AttackUnit_ArcherAttackAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var archer = new Archer(player1);
             archer.Position.Set(8, 8);
             var map = CreateMap();
@@ -458,8 +458,8 @@ namespace Tests
         [Test]
         public void AttackUnit_CatapultAttackAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var catapult = new Catapult(player1);
             catapult.Position.Set(8,8);
             var map = CreateMap();
@@ -493,8 +493,8 @@ namespace Tests
         [Test]
         public void AttackUnit_HorsemanAttackAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var horseman = new Horseman(player1);
             horseman.Position.Set(9, 9);
             var map = CreateMap();
@@ -528,8 +528,8 @@ namespace Tests
         [Test]
         public void AttackUnit_SwordsmanAttackAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var swordsman = new Swordsman(player1);
             swordsman.Position.Set(9, 9);
             var map = CreateMap();
@@ -563,8 +563,8 @@ namespace Tests
         [Test]
         public void AttackUnit_ArcherAttackCloseCombatAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var archer = new Archer(player1);
             archer.Position.Set(9, 9);
             var map = CreateMap();
@@ -598,8 +598,8 @@ namespace Tests
         [Test]
         public void AttackUnit_CatapultAttackCloseCombatAllTypes()
         {
-            var player1 = new Player(1, "Игрок №1", null);
-            var player2 = new Player(2, "Игрок №2", null);
+            var player1 = new Player();
+            var player2 = new Player();
             var catapult = new Catapult(player1);
             catapult.Position.Set(9, 9);
             var map = CreateMap();
