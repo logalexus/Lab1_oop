@@ -1,5 +1,4 @@
 ﻿using System;
-using Interfaces;
 using UnityEngine;
 
 namespace Models
@@ -7,7 +6,7 @@ namespace Models
     public abstract class Unit : GameObject
     {
         private int _health;
-
+        protected int _rangeMove;
         public event Action<int> OnHealthChanged; 
 
         public Player Player { get; }
